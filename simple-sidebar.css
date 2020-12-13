@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+.list-group a
+{
+  color: #ffffff;
+  background-color: #192a56;
+  border-bottom: 1px solid blue;
+  padding-top: 30px;
+  padding-left: 50px;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-shadow: 1px 1px blue;
+}
+.tise-heading
+{
+  height: 50px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.sidebar-heading{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px white;
+}
+.navbar
+{
+  background-color:#182C61;
+  height: 70px;
+  box-shadow: 4px 5px 4px black;
+  
+  
+}
+.list-group
+{
+    padding-top: 50px;
+}
+.kurti-head
+{
+  border-radius: 5px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+  font-family:sans-serif;
+  font-size: 1.3rem;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.list-group a:hover{
+
+  color:darkred;
+}
+ #wrapper {
+    overflow-x: hidden;
+    
+ }
+.dashboard
+{
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color:#283c6d;
+  padding: 10px;
+  border-radius: 10px;
+}
+#sidebar-wrapper {
+  color: white;
+  min-height: 100vh;
+  background-color: #182C61;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  box-shadow: 5px black;
+
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+@media (min-width:769px)
+{
+  #menu-toggle
+  {
+    display: none;
+  }
+  #sidebar-wrapper
+  {
+    display: block;
+  }
+}
+@media (min-height:1366px)
+{
+  .sidebar-wrapper{
+    min-height: 50vh;
+  }
+}
+@media (max-width:400px)
+{
+  .kurti-head{
+    font-size: 15px;
+  }
+  input{
+    font-size: 10px;
+  }
+  .dashboard
+  {
+    font-size: 16px;
+  }
+}
